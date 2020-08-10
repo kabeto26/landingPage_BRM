@@ -1,0 +1,90 @@
+#page-nav-cont{
+  display: inline-block;
+}
+#page-nav-logo{
+  height: 150px;
+  width: 140px;
+  float: left;
+  display: block;
+  position: absolute;
+  z-index: 10;
+}
+#page-nav-data{
+  display: block;
+}
+#page-nav-data h3{
+  color: rgb(240,223,9);
+  font-weight: bold;
+  line-height: 0;
+  padding: 1rem 0 0 0;
+}
+#page-nav-data h3 span{
+  color: rgb(255,255,255);
+  font-size: 1.2rem;
+  margin: 0.5rem 0 0 0;
+  text-align: right;
+  width: 30px;
+}
+#page-nav{
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  margin: 0 auto;
+  width: 100%;
+}  
+.navbar-dark{
+  /* background-color: black; */
+  color: #fff;
+}
+.navbar-right {
+  float: right !important;
+  margin-right: -15px;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
+  color: rgba(240,223,9,1);
+}
+.active{
+  color: rgba(240,223,9,1) !important;
+}
+.nav-link {
+  font-size: 0.7rem;
+}
+.navbar-brand{
+}
+.navbar{
+  display: block;
+  text-align: right;
+}
+.navbar-nav{
+  text-align: center;
+}
+.navbar-toggler{
+  text-align: right;
+  padding: 0;
+}
+/* On small screens, set height to 'auto' for the grid */
+@media screen and (max-width: 1024px) {
+  .navbar-right {
+    float: none !important;
+    margin-right: 0px;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .row.content {
+    height: auto;
+  }
+  #page-nav-data{
+    display: none;
+  }
+  #page-nav-logo img{
+    height: 65%;
+    width: 65%;
+  }
+  .nav-link {
+    font-size: 0.9rem;
+  }
+}

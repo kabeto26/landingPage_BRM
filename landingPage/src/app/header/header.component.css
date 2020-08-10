@@ -1,0 +1,18 @@
+#page-header{
+  background-image: url("../../assets/images/im_bk.jpg");
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 0;
+  height: 480px;
+  width: 100%;
+}
+#page-header-searchBar{
+}
+/* For width 400px and larger: */
+@media only screen and (min-width: 400px) {
+  body {
+    
+  }
+}

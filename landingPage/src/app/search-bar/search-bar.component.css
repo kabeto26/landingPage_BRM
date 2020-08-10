@@ -1,0 +1,176 @@
+#searchBar{
+  /* margin: 0; */
+}
+#searchBar .mt-3{
+  padding: 0;
+  display: inline;
+}
+#searchBar_cont .p-2{
+  padding: 0 1rem 0.5rem !important;
+}
+#searchBar_cont .p-3{
+  padding: 1rem 0.5rem 0 !important;
+}
+#search_title{
+  color: rgb(240,223,9);
+  font-weight: bold;
+}
+.bg-black{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+.mdb-select, .form-control{
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 0.7rem;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 0.3rem;
+  width: 10rem;
+}
+.form-inline {
+  margin: 0 auto;
+}
+#form_state{
+  width: 5rem;
+}
+#form_size{  
+  width: 5rem;
+}
+#form_minPrice{ 
+  width: 5rem;
+}
+#form_maxPrice{ 
+  width: 5rem;
+}
+#form_taxes{  
+  width: 7rem;
+}
+
+::-webkit-input-placeholder {
+  color: #fff;
+}
+:-moz-placeholder { /* Upto Firefox 18, Deprecated in Firefox 19  */
+  color: #fff;  
+}
+::-moz-placeholder {  /* Firefox 19+ */
+  color: #fff;  
+}
+:-ms-input-placeholder {  
+  color: #fff;  
+}
+
+
+.btn-primary, .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle{
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  border: 1px solid rgba(255, 255, 255, 0.5) !important;
+  font-weight: bold;
+  height: 1.8rem;
+  line-height: 0;
+  border-radius: 0;
+  margin: 0;
+}
+.btn-primary:not(:disabled):not(.disabled).active:hover, .btn-primary:hover{
+  color: #000 !important;
+  background-color: rgb(240,223,9) !important;
+}
+.mdb-select {
+   /* make arrow and background */
+   background:
+   linear-gradient(45deg, transparent 50%, #fff 50%),
+   linear-gradient(135deg, #fff 50%, transparent 50%),
+   linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1));
+ background-position:
+   calc(107% - 21px) calc(1em + 2px),
+   calc(107% - 16px) calc(1em + 2px),
+   100% 0;
+ background-size:
+   5px 5px,
+   5px 5px,
+   2.5em 2.5em;
+ background-repeat: no-repeat;
+ /* styling and reset */
+ /* border: thin solid blue;
+ font: 300 1em/100% "Helvetica Neue", Arial, sans-serif;
+ line-height: 1.5em;
+ padding: 0.5em 3.5em 0.5em 1em; */
+ /* reset */
+ border-radius: 0;
+ margin: 0;      
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+ -webkit-appearance:none;
+ -moz-appearance:none;
+}
+/*For IE*/
+select::-ms-expand { display: none; }
+/* On small screens, set height to 'auto' for the grid */
+@media screen and (max-width: 1024px) {  
+}
+
+@media screen and (max-width: 767px) {
+  #searchBar{
+    margin: 4rem 0 0;
+  }
+  .mdb-select, .form-control{
+    width: 100%;
+  }
+  .form-group {
+    width: 100%;
+    margin: 0;
+  }
+  #form_state{
+    width: 100%;
+  }
+  #form_size{  
+    width: 100%;
+  }
+  #form_minPrice{ 
+    width: 100%;
+  }
+  #form_maxPrice{ 
+    width: 100%;
+  }
+  #form_taxes{  
+    width: 100%;
+  }
+  .btn-primary,.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle{
+    width: 50%;
+    height: 2.5rem;
+  }
+  .mdb-select {
+    background-position:
+    calc(100% - 21px) calc(1em + 2px),
+    calc(100% - 16px) calc(1em + 2px),
+    100% 0;
+  background-size:
+    5px 5px,
+    5px 5px,
+    2.5em 2.5em;
+ }
+}
+@media screen and (max-width: 800px) {
+  #search_form{
+    width: 100%;
+  }
+  #searchBar_cont{
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  .form-inline {
+      display: block;
+      width: 100%;
+  }
+  .mdb-select, .form-control{
+    font-size: 100%;
+  }
+  .btn-primary, .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle{
+    font-size: 100%;
+    margin: 1% 0;
+    width: 100% !important;
+  }
+  .btnGo{
+    margin-top: 2% !important;
+  }
+}
